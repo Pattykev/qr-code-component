@@ -1,3 +1,7 @@
+:root{
+    --white:hsl(0, 0%, 100%);
+    --light-gray:hsl(216, 80%, 86%);
+}
 body p{
     font-size:15px ;
 }
@@ -13,19 +17,19 @@ body{
     font-size: 18px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+     font-size: 11px;
+     text-align: center;
+     margin-bottom: 2rem;
+    }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-:root{
-    --white:hsl(0, 0%, 100%);
-    --light-gray:hsl(216, 80%, 86%);
-}
 .container{
     width: 18rem;
-    height: 32rem;
     background-color: var(--white);
-    margin: 9rem auto;
+    margin: 0 auto;
     border-radius: 10px;
+    padding: 5px 5px;
 
 }
 .image-container img{
